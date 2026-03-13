@@ -1,6 +1,6 @@
 name: memes # 这是你的插件的唯一识别名。
 desc: 这是能让机器人随机发表情包的插件，可手动添加表情包，表情包路径在AstrBot/data/meme/下；2.0版本已发布，可按人格区分表情包 # 插件简短描述
 help: 输入 /memes 查看插件帮助，/meme help查看表情包帮助。 # 插件的帮助信息
-version: v3.1 # 插件版本号。格式：v1.1.1 或者 v1.1
+version: v3.2 # 插件版本号。格式：v1.1.1 或者 v1.1
 author: LunarMeal # 作者
 repo: https://github.com/LunarMeal/astrbot_plugin_memes # 插件的仓库地址

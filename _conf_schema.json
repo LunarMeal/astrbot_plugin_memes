@@ -10,5 +10,11 @@
         "type": "float",
         "hint": "表情包图片和文字分开发送的概率",
         "default": 0.5
+    },
+    "persona_meme_rate": {
+        "description": "人格表情包概率",
+        "type": "float",
+        "hint": "机器人发送当前人格表情包的概率，范围0-1，默认为0.9",
+        "default": 0.9
     }
 }
