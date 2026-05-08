@@ -363,7 +363,9 @@ class MyPlugin(Star):
             if random.random() < self.spilt_rate:
                 result.chain = chain
             else:
+                original_content_type = event.get_result().result_content_type
                 result = event.make_result()
+                result.result_content_type = original_content_type
                 for component in chain:
                     if isinstance(component, Plain) and component.text:
                         result = result.message(component.text)
